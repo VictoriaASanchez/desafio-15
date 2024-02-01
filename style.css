@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,300;6..12,400;6..12,500;6..12,600&display=swap');
+ 
+body {
+    text-align: center;
+    margin: 0;
+    background: -webkit-linear-gradient(top, #807ECE, #8E7ECE);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.calculator {
+    max-width: 350px;
+    background-color: #2D2A37;
+    border-radius: 3rem;
+    padding: 3.5rem 2rem 2rem 2rem;
+}
+
+.display {
+    font-family: 'Nunito Sans';
+    width: 100%;
+    height: auto;
+    font-size: 1.25rem;
+    text-align: right;
+    margin-bottom: 0.5rem;
+    padding: 1.25rem;
+    border-radius: 0.5rem;
+    color: white;
+    background-color: #3e3b4a;
+    border: none;
+    box-sizing: border-box;
+}
+
+.buttons-container {
+    margin-top: 2.5rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0.75rem;
+}
+
+.operator {
+    color: #975DFA;
+    font-size: 1.3rem;
+}
+
+#reset {
+    color: rgb(249, 126, 126);
+    font-size: 1rem;
+}
+
+#delete {
+    font-size: 1rem;
+}
+
+.equal {
+    background-color: #975DFA;
+    color: white;
+}
+
+button {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 1rem;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 2rem;
+    border: none;
+    float: left;
+    background-color: #3e3b4a;
+    color: white;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+button:active {
+    background-color: #4e4a5b;
+}
